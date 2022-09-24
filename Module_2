@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+
+<head lang="en">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	<title>Mod2-Solution</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		h1 {
+			font-family: cosmic san-serif;
+			text-align: center;
+			margin-bottom: 60px;
+		}
+
+		section {
+			border: 2px solid black;
+			margin-bottom: 10px;
+			background-color: grey;
+			position: relative;
+			overflow: auto;
+			margin: 10px;
+		}
+
+		#chicken,
+		#beef,
+		#sushi {
+			border-left: 2px solid black;
+			border-bottom: 2px solid black;
+			float: right;
+			text-align: center;
+			width: 30%;
+			margin-left: 70%;
+			font-family: cosmic san-serif;
+			font-weight: bold;
+			font-size: 125%;
+			padding: 5px;
+		}
+
+		#chicken {
+			background-color: pink;
+		}
+
+		#beef {
+			background-color: red;
+			color: white;
+		}
+
+		#sushi {
+			background-color: yellow;
+		}
+
+		p {
+			font-family: cosmic san-serif;
+			font-size: 115%;
+			padding: 10px;
+		}
+
+		.row {
+			width: 100%;
+		}
+
+		@media (min-width: 992px) {
+			.col-lg-4 {
+				float: left;
+			}
+
+			.col-lg-4 {
+				width: 33.33%;
+			}
+
+		}
+
+		@media (min-width: 768px) and (max-width: 991px) {
+
+			.col-md-6,
+			.col-md-12 {
+				float: left;
+			}
+
+			.col-md-6 {
+				width: 50%;
+			}
+
+			.col-md-12 {
+				width: 100%;
+			}
+		}
+
+
+		@media (max-width: 768px) {
+			.col-sm-12 {
+				float: left;
+			}
+
+
+			.col-sm-12 {
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<h1> Our Menu </h1>
+	<div class="row">
+		<div class="container col-lg-4 col-md-6 col-sm-12">
+			<section>
+				<div id="chicken">
+					Chicken
+				</div>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc
+					posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus.
+					Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at
+					facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.
+				</p>
+			</section>
+		</div>
+		<div class="container col-lg-4 col-md-6 col-sm-12">
+			<section>
+				<div id="beef">
+					Beef
+				</div>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc
+					posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus.
+					Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at
+					facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.
+				</p>
+			</section>
+		</div>
+		<div class="container col-lg-4 col-md-12 col-sm-12">
+			<section>
+				<div id="sushi">
+					Sushi
+				</div>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc
+					posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus.
+					Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at
+					facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.
+				</p>
+			</section>
+		</div>
+	</div>
+
+</body>
+
+</html>
